@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    vertical-align: middle;
+    border-style: none;
+    float: left;
+    width: 100%;
+
+}
+
+/* .creative{
+    padding-top: 63px;
+} */
+
+.home{
+    background-image: url(../images/home-5-image-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.inside_home{
+    position: absolute;
+    top: 115px;
+    left: 8%;
+   
+}
+.inside_home, .h1, .h2, .p{
+    color: #fff;
+}
+.icons-section{
+    padding: 64px 0;
+    background-color: beige;
+}
+.home-about-left{
+    padding-bottom: 20px;
+}
+.outer{
+    padding-bottom: 15px;
+}
+
+.section-gap{
+    padding: 64px 0;
+}
+
+.rocket-icon, .rocket-icon1, .rocket-icon2{
+    width: 15px;
+    position: absolute;
+    left: 10px;
+    padding-top: 10px;
+}
+.launch{
+    padding-left: 25px;
+}
+
+.bottom-right{
+    background-color: #3f49e5;
+    color: white;
+    width: 120px;
+    position: absolute;
+  
+}
+.s-3{
+    text-decoration: underline;
+}
+
+
+
+@media(min-width:768px){
+    .home{
+        background-position: center;
+        background-size: cover;
+    }
+    .creative{
+        padding-top: 63px;
+    }
+    .rocket-icon{
+        width: 15px;
+        position: absolute;
+        left: 5%;
+        padding-top: 10px;
+    }
+
+    .rocket-icon1{
+        width: 15px;
+        position: absolute;
+        left: 52%;
+        padding-top: 10px;
+    }
+    .rocket-icon2{
+        width: 15px;
+        position: absolute;
+        left: 5%;
+        padding-top: 10px;
+    }
+    .home-about-left{
+        padding-bottom: 30px;
+    }
+    .outer{
+        padding-top: 20px;
+    }
+}
+
+@media(min-width:992px){
+    .rocket-icon{
+        width: 15px;
+        position: absolute;
+        left: 3%;
+        padding-top: 10px;
+    }
+    .rocket-icon1{
+        width: 15px;
+        position: absolute;
+        left: 35%;
+        padding-top: 10px;
+    }
+    .rocket-icon2{
+        width: 15px;
+        position: absolute;
+        left: 67%;
+        padding-top: 10px;
+    }
+}
+
+@media(min-width:1024px){
+    .rocket-icon1{
+        width: 15px;
+        position: absolute;
+        left: 34%;
+        padding-top: 10px;
+    }
+    .rocket-icon2{
+        width: 15px;
+        position: absolute;
+        left: 67%;
+        padding-top: 10px;
+    }
+}
+
+@media(min-width:1496px){
+    .rocket-icon{
+        width: 15px;
+        position: absolute;
+        padding-top: 10px;
+        left: 6%;
+    }
+
+    .rocket-icon1{
+        width: 15px;
+        position: absolute;
+        left: 36%;
+        padding-top: 10px;
+    }
+    .rocket-icon2{
+        width: 15px;
+        position: absolute;
+        left: 65%;
+        padding-top: 10px;
+    }
+}
